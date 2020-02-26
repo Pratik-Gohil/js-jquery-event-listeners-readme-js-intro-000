@@ -3,7 +3,7 @@ function getIt() {
   $('p').click(() => alert("Hey!"))
 }
 function frameIt() {
-  $('img').on('load', () => {
+  $(document).on('load', () => {
     alert('hello')
   })
 }
