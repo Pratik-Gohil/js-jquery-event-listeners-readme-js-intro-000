@@ -8,7 +8,7 @@ function frameIt(){
   });
 }
 function pressIt() {
-  $("input").bind("keydown", (e) => {
+  $("input").bind("keydown", (event) => {
     if (event.which == 72) {
       alert("G")
     }
