@@ -1,7 +1,7 @@
 //define functions here
 function getIt() {
   $('p').on('click', () => alert("Hey!"))
-  console.log("clicl")
+  console.log("click")
 }
 function frameIt() {
   $('img').on('load' () => {
