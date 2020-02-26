@@ -9,7 +9,6 @@ function frameIt() {
 }
 
 $(document).ready(function(){
-$('img').addClass('tasty')
 // call functions here
 getIt()
 frameIt()
