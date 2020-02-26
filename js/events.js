@@ -3,9 +3,7 @@ function getIt() {
   $('p').click(() => alert("Hey!"))
 }
 function frameIt() {
-  $('img').load(() => {
-    $('img').addClass('tasty')
-  })
+  $('img').load()
 }
 
 $(document).ready(function(){
